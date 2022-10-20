@@ -1,0 +1,23 @@
+{
+  "name": "start.spring.io default to Maven",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "Switches default build tool to Maven at start.spring.io",
+  "homepage_url": "http://github.com/maciejwalkowiak",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "host_permissions": [
+    "https://start.spring.io/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://start.spring.io/**"
+      ],
+      "js": [
+        "content-script.js"
+      ]
+    }
+  ]
+}

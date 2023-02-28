@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "manifest_version": 3,
   "description": "Switches default build tool to Maven at start.spring.io",
-  "homepage_url": "http://github.com/maciejwalkowiak",
+  "homepage_url": "https://github.com/maciejwalkowiak/start-spring-io-default-maven-extension",
   "icons": {
     "128": "icons/icon128.png"
   },
